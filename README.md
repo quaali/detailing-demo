@@ -43,7 +43,7 @@ APEX Detail — вымышленный бренд. Цены иллюстрати
 ## Изображения и шрифт
 
 - `assets/hero.webp` — изображение создано встроенным OpenAI ImageGen и оптимизировано в WebP. Краткий промпт: cinematic photorealistic graphite performance coupe in dark detailing studio, white ceiling strip reflections, subtle lime accent, car on right, negative space on left, no text or logos.
-- `assets/porsche.jpg` — [фотография Unsplash](https://unsplash.com/photos/1503376780353-7e6692767b70) / [исходный файл](https://images.unsplash.com/photo-1503376780353-7e6692767b70).
+- `assets/porsche.jpg` — [исходный файл](https://images.unsplash.com/photo-1503376780353-7e6692767b70).
 - `assets/bmw.jpg` — [исходная фотография Unsplash](https://images.unsplash.com/photo-1492144534655-ae79c964c9d7).
 - Manrope загружается из Google Fonts, при отсутствии сети используется Arial.
 

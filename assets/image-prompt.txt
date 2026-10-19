@@ -1,0 +1,4 @@
+Tool: OpenAI built-in ImageGen
+Output: hero.webp (original generated PNG converted to WebP, quality 88)
+
+Use case: ads-marketing. Asset type: full-bleed hero photograph for an automotive detailing studio website. Create a cinematic photorealistic wide landscape 3:2 photograph of a glossy graphite black modern performance coupe, anonymous no visible brand, low front three-quarter view, car occupies right two thirds, front facing toward left. Dark industrial detailing studio with horizontal white ceiling strip lights reflected precisely across flawless wet polished paint, subtle lime green accent reflected on floor, dark concrete, light mist and high-end editorial car photography, dramatic beautiful sculptural highlights, left third and upper area very dark negative space, high contrast, restrained charcoal and silver palette. The complete car should be visible with wheels, avoid cropped bumper. No text, no watermarks, no people, no logos.

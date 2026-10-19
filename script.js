@@ -16,6 +16,7 @@ function calculate() {
   const multiplier = Number(data.get('car'));
   const amount = Math.round(selected.reduce((sum, key) => sum + services[key].price, 0) * multiplier);
   total.value = selected.length ? 'от ' + money(amount) : 'Выбери уход';
+  total.classList.toggle('no-selection', !selected.length);
   return { selected, amount, car: carNames[data.get('car')] };
 }
 form.addEventListener('change', calculate);
