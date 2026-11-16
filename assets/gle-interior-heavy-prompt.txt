@@ -1,0 +1,4 @@
+Tool: OpenAI built-in ImageGen
+Edit target: clean generated GLE interior AFTER frame; dirty state redrawn without recognizable prints.
+
+undefined
