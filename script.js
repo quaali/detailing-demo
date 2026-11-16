@@ -31,7 +31,7 @@ document.querySelectorAll('[data-service]').forEach(button => {
 const range = document.querySelector('#compare-range');
 range.addEventListener('input', () => {
   document.querySelector('.comparison').style.setProperty('--split', range.value + '%');
-  range.setAttribute('aria-valuetext', range.value + '% исходной фотографии');
+  range.setAttribute('aria-valuetext', range.value + '% до, ' + (100 - Number(range.value)) + '% после');
 });
 const menuToggle = document.querySelector('.menu-toggle');
 const mobileNav = document.querySelector('#mobile-nav');

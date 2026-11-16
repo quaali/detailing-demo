@@ -7,8 +7,8 @@
   <meta name="description" content="APEX Detail — концепция студии детейлинга. Полировка, керамика и уход за салоном. Интерактивный подбор услуг и визуальное портфолио.">
   <title>APEX Detail — Искусство быть безупречным</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=m4-clean">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=garage-compare">
+  <script src="script.js?v=garage-compare" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">К содержанию</a>
@@ -43,9 +43,9 @@
     <button class="service-row reveal" data-service="interior"><span class="service-number">04</span><span class="service-title">Уход за салоном<small>Глубокая очистка · Кожа · Текстиль · Пластик</small></span><span class="service-meta">от 12 000 ₽<small>1 день</small></span><span class="service-arrow" aria-hidden="true">↗</span></button>
   </div><p class="fine-print">Примерные цены для демонстрации. Итог зависит от размера автомобиля и состояния поверхностей. Нажми на услугу, чтобы рассчитать стоимость.</p>
 </section>
-<section class="comparison-section section" aria-labelledby="compare-title">
- <div class="compare-copy reveal"><p class="eyebrow">РАЗНИЦА В ДЕТАЛЯХ</p><h2 id="compare-title">Один кузов.<br><em>Два впечатления.</em></h2><p>Двигай разделитель и посмотри, как меняется восприятие цвета и отражений.</p><p class="fine-print">Визуальная симуляция обработки одной фотографии. Не является реальным результатом полировки.</p></div>
- <div class="comparison reveal" style="--split:50%"><div class="compare-base"><img src="assets/porsche.jpg" alt="Серый спортивный автомобиль, иллюстрация чистого покрытия" width="1400" height="933" loading="lazy"></div><div class="compare-before" aria-hidden="true"><img src="assets/porsche.jpg" alt="" width="1400" height="933" loading="lazy"></div><span class="compare-tag before">ДО</span><span class="compare-tag after">ПОСЛЕ</span><div class="compare-line" aria-hidden="true"><span>↔</span></div><input id="compare-range" type="range" min="0" max="100" value="50" aria-label="Разделитель сравнения до и после"><span class="compare-hint">ПОТЯНИ РАЗДЕЛИТЕЛЬ ↔</span></div>
+<section class="comparison-section section" id="comparison" aria-labelledby="compare-title">
+ <div class="compare-copy reveal"><p class="eyebrow">РАЗНИЦА В ДЕТАЛЯХ</p><h2 id="compare-title">Один кузов.<br><em>Два впечатления.</em></h2><p>Один гараж, один ракурс. Двигай разделитель: от пыльного кузова к глубокому блеску и чётким отражениям.</p><p class="fine-print" id="compare-disclaimer">Два состояния автомобиля созданы с ИИ для демонстрации. Это иллюстрация, а не реальный кейс студии.</p></div>
+ <div class="comparison reveal" style="--split:50%" aria-describedby="compare-disclaimer"><div class="compare-base"><img src="assets/garage-m4-after.webp" alt="После: чистая графитовая BMW M4 G82 с чёткими отражениями света в детейлинг-гараже. AI-иллюстрация." width="1536" height="1024" loading="lazy"></div><div class="compare-before" aria-hidden="true"><img src="assets/garage-m4-before.webp" alt="" width="1536" height="1024" loading="lazy"></div><span class="compare-tag before">ДО</span><span class="compare-tag after">ПОСЛЕ</span><div class="compare-line" aria-hidden="true"><span>↔</span></div><input id="compare-range" type="range" min="0" max="100" value="50" aria-label="Разделитель сравнения до и после" aria-valuetext="50% до, 50% после"><span class="compare-hint">ПОТЯНИ РАЗДЕЛИТЕЛЬ ↔</span></div>
 </section>
 <section class="section works" id="works">
  <div class="section-heading reveal"><p class="eyebrow">02 / В ФОКУСЕ</p><div><h2>Когда детали<br>говорят <span class="muted">сами.</span></h2><p class="section-intro">Визуальное направление студии.<br>Нажми на фото, чтобы рассмотреть.</p></div></div>
