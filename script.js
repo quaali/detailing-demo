@@ -28,10 +28,15 @@ document.querySelectorAll('[data-service]').forEach(button => {
     document.querySelector('#configurator').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
   });
 });
-const range = document.querySelector('#compare-range');
-range.addEventListener('input', () => {
-  document.querySelector('.comparison').style.setProperty('--split', range.value + '%');
-  range.setAttribute('aria-valuetext', range.value + '% до, ' + (100 - Number(range.value)) + '% после');
+// Каждый блок сравнения управляет только собственным изображением.
+document.querySelectorAll('.comparison').forEach(comparison => {
+  const range = comparison.querySelector('input[type="range"]');
+  const updateComparison = () => {
+    comparison.style.setProperty('--split', range.value + '%');
+    range.setAttribute('aria-valuetext', range.value + '% до, ' + (100 - Number(range.value)) + '% после');
+  };
+  range.addEventListener('input', updateComparison);
+  updateComparison();
 });
 const menuToggle = document.querySelector('.menu-toggle');
 const mobileNav = document.querySelector('#mobile-nav');
