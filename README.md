@@ -42,7 +42,7 @@ APEX Detail — вымышленный бренд. Цены иллюстрати
 
 ## Изображения и шрифт
 
-- `assets/hero.webp` — изображение создано встроенным OpenAI ImageGen и оптимизировано в WebP. Краткий промпт: cinematic photorealistic graphite performance coupe in dark detailing studio, white ceiling strip reflections, subtle lime accent, car on right, negative space on left, no text or logos.
+- `assets/bmw-m4-g82-sao-paulo.webp` — реальная фотография BMW M4 Competition G82, São Paulo Yellow. Автор: [Vauxford](https://commons.wikimedia.org/wiki/User:Vauxford). [Оригинал](https://commons.wikimedia.org/wiki/File:2021_BMW_M4_Competition_Automatic_3.0_Front.jpg). Лицензия [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Изменения: уменьшение до 2200 × 1131 и конвертация в WebP; CSS-кадрирование и затемнение. Производная фотография распространяется под CC BY-SA 4.0. Старая AI-иллюстрация `assets/hero.webp` сохранена в истории проекта и на странице больше не используется.
 - `assets/porsche.jpg` — [исходный файл](https://images.unsplash.com/photo-1503376780353-7e6692767b70).
 - `assets/bmw.jpg` — [исходная фотография Unsplash](https://images.unsplash.com/photo-1492144534655-ae79c964c9d7).
 - Manrope загружается из Google Fonts, при отсутствии сети используется Arial.
