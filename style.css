@@ -6,9 +6,8 @@
 /* Расчёт сохраняет читаемость при длинной сумме и на узких телефонах. */
 .estimate{flex-wrap:wrap}output.no-selection{font-size:16px;letter-spacing:0}
 
-/* Реальная фотография M4: весь автомобиль в кадре на небольшом экране. */
-.hero-image{left:auto;right:0;width:83%;object-position:center;filter:brightness(.88)}
-.hero-shade{background:linear-gradient(90deg,#111310 0%,#111310e8 14%,#11131075 36%,transparent 64%),linear-gradient(0deg,#090c09c9,transparent 36%)}
-.fine-print a{text-decoration:underline;text-underline-offset:3px}.fine-print a:hover{color:var(--lime)}
+/* Оригинальная AI-иллюстрация M4, созданная под композицию сайта. */
+.hero-image{left:0;right:0;width:100%;object-position:center;filter:none}
+.hero-shade{background:linear-gradient(90deg,#090c09b0,transparent 65%),linear-gradient(0deg,#090c09b0,transparent 38%)}
 .work-large .work-image img{filter:none;object-position:center}
-@media(max-width:700px){.hero-image{left:0;top:0;width:100%;height:55%;object-fit:contain;object-position:center;filter:none}.hero-shade{background:linear-gradient(0deg,#111310 0%,#111310 38%,#111310a8 48%,transparent 64%)}.hero-copy{bottom:70px}.scene-caption{gap:12px}.scene-caption>span:last-child{font-size:6px;letter-spacing:.6px}}
+@media(max-width:700px){.hero-image{width:100%;height:55%;object-fit:contain;object-position:center}.hero-shade{background:linear-gradient(0deg,#111310 0%,#111310 38%,#11131088 48%,transparent 64%)}.hero-copy{bottom:70px}.scene-caption{gap:12px}.scene-caption>span:last-child{font-size:6px;letter-spacing:.6px}}
