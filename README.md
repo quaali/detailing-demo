@@ -42,7 +42,7 @@ APEX Detail — вымышленный бренд. Цены иллюстрати
 
 ## Изображения и шрифт
 
-- `assets/garage-m4-before.webp` и `assets/garage-m4-after.webp` — два сгенерированных состояния графитовой BMW M4 G82 в детейлинг-гараже. Для состояния «до» использован кадр «после» с сохранением композиции. Созданы встроенным ImageGen. Подробности: `assets/garage-comparison-prompts.txt`.
+- `assets/garage-gle-63-before.webp` и `assets/garage-gle-63-after.webp` — два сгенерированных состояния чёрного Mercedes-AMG GLE 63 Coupé 2018 года (C292) в детейлинг-гараже. Для состояния «до» использован кадр «после» с сохранением композиции. Созданы встроенным ImageGen. Подробности: `assets/garage-gle-63-prompts.txt`.
 
 - `assets/bmw-m4-g82-lime-ai.webp` — оригинальная AI-иллюстрация BMW M4 G82 в лаймовом цвете, созданная встроенным OpenAI ImageGen специально для этого сайта. Тёмная студия, отражения световых линий и свободное пространство слева. Полный промпт: `assets/bmw-m4-g82-ai-prompt.txt`. Исходник: `outputs/bmw-m4-g82-lime.png` в рабочем проекте. Предыдущая реальная фотография больше не используется на странице; её лицензия остаётся в `assets/bmw-m4-g82-license.txt`.
 - `assets/porsche.jpg` — [исходный файл](https://images.unsplash.com/photo-1503376780353-7e6692767b70).
