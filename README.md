@@ -42,7 +42,7 @@ APEX Detail — вымышленный бренд. Цены иллюстрати
 
 ## Изображения и шрифт
 
-- `assets/gle-interior-before-medium.webp` и `assets/gle-interior-after.webp` — созданные встроенным ImageGen состояния салона Mercedes-AMG GLE 63 Coupé C292 2018 года. Чистый кадр служит исходником для загрязнённого состояния с сохранением ракурса. Чистый кадр сохранён; состояние «до» показывает умеренное загрязнение приборки, сидений и ковра без отпечатков обуви. Промпт умеренного загрязнения: `assets/gle-interior-medium-prompt.txt`; исходный промпт чистого состояния: `assets/gle-interior-prompts.txt`.
+- `assets/gle-interior-before-medium-plus.webp` и `assets/gle-interior-after.webp` — созданные встроенным ImageGen состояния салона Mercedes-AMG GLE 63 Coupé C292 2018 года. Чистый кадр служит исходником для загрязнённого состояния с сохранением ракурса. Чистый кадр сохранён; состояние «до» показывает умеренное загрязнение приборки, сидений и ковра без отпечатков обуви. Промпт умеренного загрязнения: `assets/gle-interior-medium-plus-prompt.txt`; исходный промпт чистого состояния: `assets/gle-interior-prompts.txt`.
 
 - `assets/garage-gle-63-before.webp` и `assets/garage-gle-63-after.webp` — два сгенерированных состояния чёрного Mercedes-AMG GLE 63 Coupé 2018 года (C292) в детейлинг-гараже. Для состояния «до» использован кадр «после» с сохранением композиции. Созданы встроенным ImageGen. Подробности: `assets/garage-gle-63-prompts.txt`.
 
