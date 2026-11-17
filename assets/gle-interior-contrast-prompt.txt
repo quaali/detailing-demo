@@ -1,0 +1,4 @@
+Tool: built-in ImageGen
+References: moderate dirt target, clean AFTER, rejected heavy dirt upper limit.
+
+undefined
